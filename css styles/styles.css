@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Skranji:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Skranji", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #eb9f20;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #eb9f20;
+}
+
+section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    padding: 2rem;
+    width: 50rem;
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: black;
+    color: #eb9f20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insta {
+    width: 4rem;
+}
+
+article {
+    color: #eb9f20;
+}
+
+.title {
+    color: #eb9f20;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+section {
+    justify-content: center;
+}
+
+.tarjetas {
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.tarjeta {
+    width: 20%;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.nombre {
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.title{
+    background-color: black;
+    color: #eb9f20;
+}
+
+.retos {
+    width: 100%;
+}
+
+.nav-link {
+    color: #eb9f20;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.width-bg {
+    padding: 2rem;
+}
+
+.names {
+    color: #eb9f20;
+}
+
+.parrafo {
+    color: #eb9f20;
+    background-color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
