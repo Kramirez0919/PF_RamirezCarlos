@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Skranji", system-ui;
+    font-family: "Skranji";
     font-weight: 400;
     font-style: normal;
 }
@@ -44,19 +44,6 @@ section {
 .main-image {
     padding: 2rem;
     width: 50rem;
-}
-
-footer {
-    padding: 1.5rem;
-    background-color: black;
-    color: #eb9f20;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.insta {
-    width: 4rem;
 }
 
 article {
@@ -128,4 +115,17 @@ section {
 
 .navbar {
     margin-bottom: 0;
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: black;
+    color: #eb9f20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insta {
+    width: 4rem;
 }

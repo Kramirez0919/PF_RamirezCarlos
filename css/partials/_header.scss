@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $mainColor;
+    font-size: 1.5rem;
+    .logo {
+        width: 8rem;
+    }
+    .menu {
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;
+    }
+    
+    .links {
+        text-decoration: none;
+        color: #eb9f20;
+    }
+}

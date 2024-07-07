@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Skranji:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Skranji";
+  font-weight: 400;
+  font-style: normal;
+  color: "#eb9f20";
+}
+
+header {
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: "#eb9f20";
+  font-size: 1.5rem;
+}
+header .logo {
+  width: 8rem;
+}
+header .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+header .links {
+  text-decoration: none;
+  color: #eb9f20;
+}
+
+footer {
+  padding: 1.5rem;
+  background-color: black;
+  color: #eb9f20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.insta {
+  width: 4rem;
+}/*# sourceMappingURL=main.css.map */
