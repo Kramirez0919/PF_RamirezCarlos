@@ -4,19 +4,22 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: $mainColor;
+    color: #eb9f20;
     font-size: 1.5rem;
+
     .logo {
         width: 8rem;
     }
-    .menu {
-        display: flex;
-        list-style-type: none;
-        gap: 2rem;
+
+    .nav-link {
+        color: #eb9f20;
     }
     
-    .links {
-        text-decoration: none;
-        color: #eb9f20;
+    .nav-link:hover {
+        color: white;
+    }
+    
+    .width-bg {
+        padding: 2rem;
     }
 }

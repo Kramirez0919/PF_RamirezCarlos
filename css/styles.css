@@ -23,30 +23,8 @@ header{
     width: 8rem;
 }
 
-.menu {
-    display: flex;
-    list-style-type: none;
-    gap: 2rem;
-}
-
 .links {
     text-decoration: none;
-    color: #eb9f20;
-}
-
-section {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-image {
-    padding: 2rem;
-    width: 50rem;
-}
-
-article {
     color: #eb9f20;
 }
 
@@ -116,6 +94,19 @@ section {
 .navbar {
     margin-bottom: 0;
 }
+
+section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    padding: 2rem;
+    width: 50rem;
+}
+
 
 footer {
     padding: 1.5rem;
