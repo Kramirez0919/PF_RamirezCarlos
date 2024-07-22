@@ -1,0 +1,13 @@
+.main-image {
+    padding: 2rem;
+    width: 50rem;
+    background-color: black;
+    
+}
+
+.box {
+    @include flexible;
+    @include colors;
+    align-items: center;
+    justify-items: center;
+}

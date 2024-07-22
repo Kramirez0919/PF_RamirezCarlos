@@ -1,0 +1,9 @@
+footer {
+    @include flexible;
+    @include mainFont;
+    @include colores;
+}
+
+.insta {
+    width: 4rem;
+}
